@@ -1,9 +1,8 @@
 {delete} 
-{respond:#reports} 
-{&Staff} A report has been sent! 
-**TIME:** {date}, {time12}
-**CHANNEL:** {channel} 
-**REPORTER:** {user} 
-**REPORTED:** $1 
-**SCREENSHOT:** $2 
-**REASON:** $3+
+{respond:#📁│admin-news} 
+{&Staff} Репорт Отправлен На Рассмотрение! 
+**Время:** {date}, {time12}
+**Канал** {channel} 
+**Кто Зарепортил:** {user} 
+**Кого Зарепортили:** $1 
+**Причина:** $2+
